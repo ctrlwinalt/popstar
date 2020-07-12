@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>popstar</title>
+    <style>
+        body {
+            background-color: black;
+        }
+        
+        #gua-container {
+            background-image: url('./img/bg.png');
+            background-repeat: no-repeat;
+            width: 400px;
+            height: 577px;
+            position: relative;
+            margin: 100px auto;
+        }
+        
+        #id-gua-square {
+            font-size: 0;
+            width: 350px;
+            display: inline-block;
+            position: absolute;
+            top: 100px;
+            left: 25px;
+        }
+        
+        .gua-line {
+            display: inline-block;
+            width: 35px;
+        }
+        
+        .gua-num {
+            width: 35px;
+            height: 35px;
+            display: inline-block;
+            background-size: contain;
+        }
+        
+        .num1 {
+            background-image: url('./img/blue.png');
+        }
+        
+        .num2 {
+            background-image: url('./img/green.png');
+        }
+        
+        .num3 {
+            background-image: url('./img/purple.png');
+        }
+        
+        .num4 {
+            background-image: url('./img/red.png');
+        }
+        
+        .num5 {
+            background-image: url('./img/yellow.png');
+        }
+        
+        .hide {
+            background-image: none;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div id="gua-container">
+        <div id="id-gua-square">
+
+        </div>
+    </div>
+
+
+    <script src="./tool.js"></script>
+    <script src="./popstar.js"></script>
+</body>
+
+</html>
